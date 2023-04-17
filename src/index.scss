@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-black;
+        @apply text-white;
+    }
+
+    body, html, #root {
+        @apply flex w-full h-full justify-center items-center;
+    }
+
+    h1 {
+        font-size: 50px;
+        @apply text-white;
+    }
+}
